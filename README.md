@@ -1,14 +1,10 @@
-# Peppersec project template [![Build Status](https://github.com/peppersec/project-template/workflows/build/badge.svg)](https://github.com/peppersec/project-template/actions)
+# My hardhat project template
 
-## Dependencies
+Generated from **[Peppersec project template](https://github.com/peppersec/project-template)**.
 
-1. node 14
-2. yarn
-
-## Start
+# Build
 
 ```bash
 $ yarn
 $ cp .env.example .env
-$ yarn start
 ```

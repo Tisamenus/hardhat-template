@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
+      - run: yarn hardhat compile
       # - run: yarn test
       - run: yarn lint
       # - name: Telegram Failure Notification
