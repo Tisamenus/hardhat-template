@@ -15,4 +15,4 @@ $ cp .env.example .env
 
 #### ```yarn add:oz <name1> <version1>```
 
-Adds an openzeppelin package with the path ```openzeppelin/<name1>``` with the specified version. Useful in case of solidity version differences in source files.
+Adds an openzeppelin package with the path ```@openzeppelin/<name1>``` with the specified version. Useful in case of solidity version differences in source files.
