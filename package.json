@@ -7,11 +7,12 @@
     "prettier:check": "prettier --check . --config .prettierrc",
     "prettier:fix": "prettier --write . --config .prettierrc",
     "lint": "yarn eslint && yarn prettier:check",
+    "add:oz": "node scripts/addOpenZeppelinPackage.js",
     "test:all": "yarn hardhat test",
     "test": "yarn test:all",
     "test:all:f": "yarn prettier:fix && yarn test && yarn lint",
-    "clean": "yarn prettier:fix && yarn lint",
     "test:f": "yarn prettier:fix && yarn test",
+    "clean": "yarn prettier:fix && yarn lint",
     "compile": "yarn prettier:fix && yarn hardhat compile"
   },
   "repository": {
