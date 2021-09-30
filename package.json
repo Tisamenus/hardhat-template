@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h-ivor/synthetix-staking-minimal.git"
+    "url": "git+https://github.com/h-ivor/hardhat-template.git"
   },
   "license": "MIT",
   "dependencies": {
