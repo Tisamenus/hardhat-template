@@ -13,6 +13,14 @@ $ cp .env.example .env
 
 ## Scripts
 
-#### ```yarn add:oz <name1> <version1>```
+#### ```yarn add:oz <version>```
 
-Adds an openzeppelin package with the path ```@openzeppelin/<name1>``` with the specified version. Useful in case of solidity version differences in source files.
+Adds an openzeppelin package compatible with some 0.X solidity version.
+
+#### ```yarn update```
+
+Updates all **devDependencies** from package.json. Dependencies updated according to specifier (e.g. >=).
+
+#### ```yarn update:all```
+
+Updates **all** dependencies. Dependencies updated according to specifier (e.g. >=).
