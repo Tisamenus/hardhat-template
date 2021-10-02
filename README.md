@@ -1,4 +1,4 @@
-# FriΞd's  <img src="assets/typescript_logo.png" height="30px" width="30px" alt=""> Hardhat project template 
+# FriΞd's  <img src="assets/typescript_logo.png" height="40px" width="40px" alt=""> Hardhat project template 
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/h-ivor/hardhat-template/build)](https://github.com/h-ivor/hardhat-template/actions)
 
