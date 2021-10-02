@@ -1,15 +1,17 @@
-require('dotenv').config()
-require('@nomiclabs/hardhat-ethers')
-require('@nomiclabs/hardhat-etherscan')
-require('@nomiclabs/hardhat-waffle')
-require('hardhat-spdx-license-identifier')
-require('hardhat-storage-layout')
-require('hardhat-log-remover')
-require('hardhat-contract-sizer')
+import 'dotenv/config'
+import '@nomiclabs/hardhat-ethers'
+import '@nomiclabs/hardhat-etherscan'
+import '@nomiclabs/hardhat-waffle'
+import 'hardhat-spdx-license-identifier'
+import 'hardhat-storage-layout'
+import 'hardhat-log-remover'
+import 'hardhat-contract-sizer'
+
+import { HardhatUserConfig } from 'hardhat/types/config'
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-module.exports = {
+const config: HardhatUserConfig = {
   solidity: {
     compilers: [
       {
@@ -75,3 +77,4 @@ module.exports = {
     apiKey: `${process.env.etherscan_api_key}`,
   },
 }
+export default config

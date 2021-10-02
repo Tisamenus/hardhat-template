@@ -1,8 +1,8 @@
-# FriΞd's Hardhat project template 
+# FriΞd's TypeScript Hardhat project template 
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/h-ivor/hardhat-template/build)](https://github.com/h-ivor/hardhat-template/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/h-ivor/hardhat-template/build)](https://github.com/h-ivor/hardhat-template/actions) <img src="assets/typescript_logo.png" height="20px" width="20px" alt="">
 
-Generated from <img src="assets/peppersec_logo.png" height="19px" width="19px" alt=""><u>**[Peppersec project template](https://github.com/peppersec/project-template)**</u>.
+Generated from <img src="assets/peppersec_logo.png" height="20px" width="20px" alt=""><u>**[Peppersec project template](https://github.com/peppersec/project-template)**</u>.
 
 ## Build
 
