@@ -6,6 +6,9 @@ import 'hardhat-spdx-license-identifier'
 import 'hardhat-storage-layout'
 import 'hardhat-log-remover'
 import 'hardhat-contract-sizer'
+import '@typechain/hardhat'
+import '@nomiclabs/hardhat-ethers'
+import '@nomiclabs/hardhat-waffle'
 
 import { HardhatUserConfig } from 'hardhat/types/config'
 /**
@@ -72,6 +75,10 @@ const config: HardhatUserConfig = {
   spdxLicenseIdentifier: {
     overwrite: true,
     runOnCompile: true,
+  },
+  typechain: {
+    outDir: 'types',
+    target: 'ethers-v5',
   },
   etherscan: {
     apiKey: `${process.env.etherscan_api_key}`,

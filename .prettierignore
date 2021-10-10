@@ -6,3 +6,4 @@ build
 dist
 README.md
 coverage
+types
