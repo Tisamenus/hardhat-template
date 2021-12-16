@@ -2,13 +2,12 @@ import 'dotenv/config'
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-etherscan'
 import '@nomiclabs/hardhat-waffle'
+import '@typechain/hardhat'
+
 import 'hardhat-spdx-license-identifier'
 import 'hardhat-storage-layout'
 import 'hardhat-log-remover'
 import 'hardhat-contract-sizer'
-import '@typechain/hardhat'
-import '@nomiclabs/hardhat-ethers'
-import '@nomiclabs/hardhat-waffle'
 
 import { HardhatUserConfig } from 'hardhat/types/config'
 /**
